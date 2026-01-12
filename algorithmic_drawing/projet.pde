@@ -1,8 +1,6 @@
 void setup() 
 {
-  size(800, 800);
-
-  
+  size(800, 800);  
 }
 
 float angle_i = 0;  
@@ -50,7 +48,7 @@ void draw()
       pushMatrix(); 
       rotate(angle_j+j * PI/6.0); 
       strokeWeight(1);
-      triangle(100, 70, 50,100, 60, 70);
+      triangle(100, 70, 50,100, 200, 70);
       popMatrix();
     }
     popMatrix();
@@ -74,3 +72,5 @@ void draw()
     popMatrix();
   }
 }
+
+
