@@ -1,0 +1,4 @@
+Explication du projet :
+
+Mon dessin est un mandala animé. J’ai commencé par programmer le dessin d’une rosace, puis d’une rosace de rosaces. J’ai ensuite dupliqué ce code en modifiant plusieurs paramètres, notamment les formes pour obtenir le résultat souhaité.
+Le programme s’exécute avec le logiciel Processing.
