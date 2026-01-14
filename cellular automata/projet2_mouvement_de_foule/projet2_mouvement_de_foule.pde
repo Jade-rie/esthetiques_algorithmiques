@@ -102,7 +102,7 @@ void draw()
     }
   }
   
-  //on tire au sort le nombre de pixels souhaités par frame (pour gérer la vitesse de déplacement)
+  //on tire au sort les pixels qui vont bouger en fonction du nombre de pixels souhaités (pour gérer la vitesse de déplacement)
   for(int pixel = 0; pixel < pixelsParFrame; pixel++) 
   {
     int x = int(random(nb_lignes)); 
