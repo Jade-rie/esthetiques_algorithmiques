@@ -1,6 +1,6 @@
 
-int nb_lignes = 30;   //pour varier le nombre de personnes
-int nb_colonnes = 30;
+int nb_lignes = 50;   //pour varier le nombre de personnes
+int nb_colonnes = 50;
 int[][] grille = new int[nb_lignes][nb_colonnes];
 int pixelsParFrame = 500;  // pour varier la vitesse de déplacement
 int x_sortie = nb_lignes - 1;
