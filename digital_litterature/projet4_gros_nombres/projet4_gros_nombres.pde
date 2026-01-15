@@ -6,10 +6,10 @@ int nombre_click_milliard = 0;
 int nombre_click_billion = 0;
 
 //Variables couleurs
-color couleur_mille = color(204, 204, 255);
-color couleur_million = color(150, 131, 236);
-color couleur_milliard = color(100, 0, 180);
-color couleur_billion = color(46, 0, 108);
+color couleur_billion = color(164, 154, 225);
+color couleur_milliard = color(150, 131, 236);
+color couleur_million = color(100, 0, 180);
+color couleur_mille = color(46, 0, 108);
 color couleur_phrases = color(0);
 
 //Variables épaisseurs
@@ -136,7 +136,7 @@ void draw()
     point(milieu_x, milieu_y);
     
     textSize(taille_txt);
-    fill(255);
+    fill(couleur_phrases);
     text(billion[(nombre_click_billion - 1) % billion.length], x_phrases, y_phrases);
   }
 }
